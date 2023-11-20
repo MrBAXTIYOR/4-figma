@@ -1,0 +1,113 @@
+.section-4 {
+  margin-top: 120px;
+}
+.section-4__wrapper h2 {
+  color: #000;
+  font-family: DM Serif Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.section-4__list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.section-4__list-head {
+  width: 311px;
+  height: 167px;
+  flex-shrink: 0;
+  border-radius: 21px 21px 0px 0px;
+  background: #faf5f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-4__list-info .sss {
+  color: #000;
+  font-family: DM Serif Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.section-4__list-info {
+  width: 311px;
+  height: 143px;
+  flex-shrink: 0;
+  padding-left: 21px;
+  border-radius: 21px 21px 0px 0px;
+  background: #fff;
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+}
+.section-4__list-info-item {
+  display: flex;
+  gap: 45px;
+}
+.section-4__list-info-item-logo {
+  display: flex;
+  gap: 7px;
+}
+.section-4__list-info-item-logo p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section-4__list-info .ddd {
+  color: #21408e;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 85px;
+  margin-top: 25px;
+  margin-bottom: 7px;
+}
+.section-4__list-info button {
+  width: 164px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #21408e;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  border: none;
+  margin-left: 48px;
+}
+.section-4__list-item {
+  box-shadow: 5px 8px 19px -2px rgba(0, 0, 0, 0.44);
+}
+@media screen and (max-width: 767px) {
+  .section-4__wrapper h2 {
+    color: #000;
+    font-family: DM Serif Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+  }
+  .asf{
+    display: none;
+  }
+
+}

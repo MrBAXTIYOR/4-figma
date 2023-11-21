@@ -662,6 +662,229 @@
     flex-shrink: 0;
   }
 }
+.section-6 {
+  margin-top: 40px;
+  margin-bottom: 222px;
+}
+
+.section-6__wrapper .sssd {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.line {
+  width: 72px;
+  height: 3px;
+  flex-shrink: 0;
+  background: #f1bc00;
+  margin: 0 auto;
+}
+
+.section-6__wrapper h3 {
+  margin-top: 150px;
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.section-6__list {
+  display: flex;
+  gap: 70px;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+.section-6__list-info h4 {
+  margin-top: 15px;
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-6__list-info p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+  line-height: 28px;
+}
+
+.section-6__list-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.section-6__list-info {
+  max-width: 310px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-6__list-item {
+    width: 135px;
+  }
+  .section-6__list-info h4 {
+    color: #000;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .section-6__list-info p {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .section-6__list {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .section-6__list-img img {
+    width: 27px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+}
+.section-7 {
+  background-image: url(../images/car.jpg);
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.section-7__wrapper h3 {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.section-7__info p {
+  margin-top: 170px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.section-7__info input {
+  width: 958px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e5e5e5;
+  border: none;
+  padding-left: 27px;
+}
+
+.section-7__wrapper {
+  padding: 50px 40px;
+}
+
+.section-7__info button {
+  width: 170px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #21408e;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 767px) {
+  .section-7 {
+    height: 300px;
+  }
+  .section-7__wrapper h3 {
+    color: #fff;
+    font-family: DM Serif Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .section-7__info p {
+    margin-top: 100px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .section-7__wrapper {
+    padding: 33px 12px;
+  }
+  .section-7__info button {
+    width: 55px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background: #21408e;
+  }
+  .section-7__info input {
+    padding-left: 14px;
+    border-radius: 10px;
+    background: #e5e5e5;
+    width: 250px;
+    height: 27px;
+    flex-shrink: 0;
+  }
+}
 *,
 *::after,
 *::before {
